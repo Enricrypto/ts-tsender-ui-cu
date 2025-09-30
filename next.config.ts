@@ -1,11 +1,6 @@
-import type { NextConfig } from "next"
-
-const nextConfig: NextConfig = {
-  images: {
-    unoptimized: true
-  },
-  basePath: "",
-  trailingSlash: true
+const nextConfig = {
+  images: { unoptimized: true },
+  trailingSlash: true,
+  basePath: ""
 }
-
 export default nextConfig
